@@ -1,0 +1,18 @@
+#note : history only captured commands from my most recent terminal session; some earlier commands from this lab aren't shown here due to reopening my terminal pathway through
+
+  177  pip list
+  178  pip install request
+  179  pip install request
+  180  pip list
+  181  pip install requests
+  182  pip list
+  183  DACTIVATE WHICH PYTHON3
+  184  deactivate which python3
+  185  python3
+  186  cd ~/coding-cafe
+  187  nano week/02/notes.md
+  188  cd ~/coding-cafe
+  189  nano week02/notes.md
+  190  cat weeko2/notes.md
+  191  cat week02/notes.md
+  192  pwd

@@ -1,0 +1,23 @@
+Q.1 It print absolute path of your current directory i.e./users/diksha (in my case)
+Q.2 ls-a show hidden files and directories (beginning with .for example .local or .zsh_sessions) that plain ls normally doesnot show, ls just shows desktop files.
+Q.3 rw-r--r--@ 1 diksha staff 119 25 Aug 09:03 #include <stdio.c this is first line 
+the first column :rw-r--r--@ 
+- = regular file 
+rw-= the owner can read and write
+r-- = the group can only read
+r-- = others can only read
+@ = the file has extende attributes on macOS.
+Q.4 This is relative path, it's written relative to my current location, not from the root of the filesystem. Since, I ran the command while standing in my home folder and coding cafe is sub folder directly inside it. so, the shell can follow that path down from where i already am without me needing to cd into it first. If I had moved somewhere else first, this same relative path would no longer work.
+Q.5 mv README-backup.md old-readme.md week01/ moved file into different folder and mv README-backup.md old-readme.md renamed the file.
+Q.6 it has 11 folders.
+Q.7python3 lives in /Library/Frameworks/Python.framework/Versions/3.14/bin/python3.
+Q.8 No, they are not same, the differnce might be because of different installation method. for example,in my mac python came pre-installed,while the other person has dowlanded it through homebrew,anaconda etc or may be due to being on different operating systems.-o
+Q.9 It says zsh: command not found: pyton3
+Q.10 Because it starts with a dot and anything beginning with . is hidden file which can't be displayed by plain ls, to display such hidden enteries we need ls -a.
+Q.11 Prompts now starts with (.venv) prepended before the usual prompt text, showing you're inside an active virtual environment.
+Q.12 before activating the venv showed /Library/Frameworks/Python.framework/Versions/3.14/bin/python3 but after activating .venv , it now shows /Users/diksha/coding-cafe/.venv/bin/python3. this is a different path now. This tells me activate changed my path variable so that venv's own bin folder is searched now before the system folders. so, now typing python3 now finds the private copy of python living inside .venv, instead of the system  wide one i was using before.
+Q.13 The second pip list include requests which was not there in before along with few extra packages which are certifi,charset-normalizer,idna and urllib3.
+Q.14 After running deactivate, python3 shows the same path as before I ever activate,removing the venv's bin folder from the front of the search list and restoring things back to normal. 
+Q.15 It shows file size in human readable form instead of raw byte counts,making size easier to read at a glance
+Q.16 Ctrl+C sends an interrupt signal that kills/stos the currently running program and Ctrl+C sends a signal that there's no more input coming i.e. similar to exit.
+  
